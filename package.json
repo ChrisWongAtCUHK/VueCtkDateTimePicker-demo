@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -28,6 +29,7 @@
     "babel-preset-vue": "^2.0.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^2.1.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
