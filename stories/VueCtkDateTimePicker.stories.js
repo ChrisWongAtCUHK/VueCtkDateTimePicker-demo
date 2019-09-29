@@ -14,10 +14,16 @@ export const toStorybook = () => ({
   data() {
     return {
       yourValue: null,
+
     }
   },
   components: { VueCtkDateTimePicker },
-  template: `<VueCtkDateTimePicker v-model="yourValue" />`,
+  template: `<div>
+    <VueCtkDateTimePicker v-model="yourValue" />
+    <div v-if="yourValue">
+      {{ JSON.stringify(yourValue, null, 2) }}
+    </div>
+  </div>`,
 })
 
 toStorybook.story = {
