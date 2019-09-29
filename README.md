@@ -1,29 +1,24 @@
 # vue-ctk-date-time-picker-demo
 
-## Project setup
+## Storybook setup
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+npm install
 ```
 
-### Compiles and minifies for production
+### Run
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+npm run storybook
 ```
 
-### Lints and fixes files
+### Build
 ```
-yarn run lint
+npm run build-storybook
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Deploy to GitHub
+```
+npm run deploy-storybook
+```
+
+### Please refer to
+[VueCtkDateTimePicker](https://github.com/chronotruck/vue-ctk-date-time-picker)
